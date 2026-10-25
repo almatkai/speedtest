@@ -1,0 +1,82 @@
+{
+  "appCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+  "files": [
+    {
+      "path": "src-tauri/src/native_core/extensions/v2_speedtest.rs",
+      "size": 19882,
+      "sha256": "87feae9abbe037fda774c5ad8ba0849800bdc255e4b23fd0eb16112a143545dc",
+      "originType": "app-git",
+      "originCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89"
+    },
+    {
+      "path": "LICENSE",
+      "size": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "originType": "app-git",
+      "originCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89"
+    },
+    {
+      "path": "licenses/raycast-extensions-MIT.txt",
+      "size": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "originType": "app-git",
+      "originCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89"
+    },
+    {
+      "path": "manifest.v2.json",
+      "size": 977,
+      "sha256": "6e63f56d656f4c9f6caba5784ea34066cc8ecd1dbad7d9d8dd9bc4d5c49f9747",
+      "originType": "catalog-selection",
+      "originCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89"
+    },
+    {
+      "path": "provenance/installed-package.json",
+      "size": 1473,
+      "sha256": "d93803d1175dcf3274deb0d5bb1b40316db8d1fd3039111486cd60190561c0e8",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/speedtest.png",
+      "size": 22177,
+      "sha256": "52dade6b1033a41235924b7cf45c92f3a2f08af7910046978611735ea8af47e4",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "provenance/upstream-directory.json",
+      "size": 13388,
+      "sha256": "05316b6294a494011a9d3587368133ef24c4e59598301a81df0649c68931e50b",
+      "originType": "github-api",
+      "originCommit": "97ee2594a03a94fa439c26864d85ad9a96dc9fc9"
+    },
+    {
+      "path": "provenance/current-upstream/README.md",
+      "size": 4225,
+      "sha256": "533e844c5eb123e604b78b2770f063bbf72a45983458d6dc06cd21def7ac2b51",
+      "originType": "https"
+    },
+    {
+      "path": "provenance/current-upstream/package.json",
+      "size": 1723,
+      "sha256": "4c5df4bd05001baff878f2c16148cf97325838118dfcaff830ff0512dcf7c633",
+      "originType": "https"
+    },
+    {
+      "path": "provenance/current-upstream/repository-LICENSE",
+      "size": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "originType": "https"
+    },
+    {
+      "path": "provenance/ookla-1.2.0/win64.zip/speedtest.md",
+      "size": 13759,
+      "sha256": "c3b75fa0eff9591d98cdc288209afd4ff0f31ed6fc29722e9b05f03cb572cb40",
+      "originType": "archive-member"
+    },
+    {
+      "path": "provenance/ookla-1.2.0/macosx-universal.tgz/speedtest.md",
+      "size": 13759,
+      "sha256": "c3b75fa0eff9591d98cdc288209afd4ff0f31ed6fc29722e9b05f03cb572cb40",
+      "originType": "archive-member"
+    }
+  ]
+}

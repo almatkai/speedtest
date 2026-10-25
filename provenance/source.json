@@ -1,0 +1,58 @@
+{
+  "slug": "speedtest",
+  "status": "source-inputs-only",
+  "standalone": false,
+  "source_pack_complete_for_research": true,
+  "repository": "almatkai/speedtest",
+  "repository_exists_at_inventory": false,
+  "repository_visibility": null,
+  "repository_proposed_name": "speedtest",
+  "publish_allowed": "not-approved; research inputs need integration/license review",
+  "app_base": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+  "app_branch": "fix/beta15-external-rust-extensions",
+  "source_sha256": "87feae9abbe037fda774c5ad8ba0849800bdc255e4b23fd0eb16112a143545dc",
+  "source_module": "src-tauri/src/native_core/extensions/v2_speedtest.rs",
+  "manifest": "manifest.v2.json",
+  "manifest_icon_original_copied": true,
+  "manifest_asset_references": [
+    "speedtest.png"
+  ],
+  "actual_missing_assets": [],
+  "commands": 1,
+  "runtime_validation": "not-run",
+  "remaining_port_couplings": "Host views/clipboard/URL/resource/cache paths and subprocess lifecycle. Ookla CLI is separately licensed, personal non-commercial usage restriction; automatic --accept-license/--accept-gdpr behavior remains unchanged in source, not newly approved.",
+  "host_request_routes": [],
+  "sdk_functions": [
+    "copy",
+    "open",
+    "unchanged",
+    "view"
+  ],
+  "license_notices": [
+    "App LICENSE retained exactly (Apache-2.0, existing Almat notice); retain Raycast MIT and original author/contributor metadata; not one license for all third-party assets. Original icons preserved; no trademark grant or independent authorship invented.",
+    "Both pinned archives match hashes; their exact speedtest.md (usage/EULA/privacy links and third-party notices) retained. CLI is NOT Apache/MIT just because adapter/source is. Executables and archives omitted. Runtime pinned fetch does not waive use/redistribution terms."
+  ],
+  "installed_public_metadata": {
+    "author": "tonka3000",
+    "contributors": [
+      "koayon",
+      "pernielsentikaer",
+      "stevensd2m",
+      "aliaksandr_zhebit",
+      "xilopaint",
+      "alexi.build"
+    ],
+    "license": "MIT",
+    "version": null
+  },
+  "installed_upstream_exact_commit": "unknown",
+  "upstream_snapshot": {
+    "slug": "speedtest",
+    "repository": "raycast/extensions",
+    "snapshot_commit": "97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "installed_exact_upstream_commit": "unknown",
+    "extension_path": "extensions/speedtest",
+    "errors": []
+  },
+  "existing_repository_upstream": null
+}

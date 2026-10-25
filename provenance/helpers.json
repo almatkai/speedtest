@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "speedtest",
+    "filename": "macosx-universal.tgz",
+    "url": "https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-macosx-universal.tgz",
+    "expected_sha256": "c9f8192149ebc88f8699998cecab1ce144144045907ece6f53cf50877f4de66f",
+    "binary_included": false,
+    "download_sha256": "c9f8192149ebc88f8699998cecab1ce144144045907ece6f53cf50877f4de66f",
+    "download_size": 1074443,
+    "download_matches_pin": true,
+    "archive_members": [
+      "speedtest",
+      "speedtest.md",
+      "speedtest.5"
+    ],
+    "executable_sha256": "0835368cb794a0b3652572e34cd6367b849adf66c5649ff6e209b248cd9c2af0",
+    "executable_member": "speedtest"
+  },
+  {
+    "slug": "speedtest",
+    "filename": "win64.zip",
+    "url": "https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-win64.zip",
+    "expected_sha256": "13e3d888b845d301a556419e31f14ab9bff57e3f06089ef2fd3bdc9ba6841efa",
+    "binary_included": false,
+    "download_sha256": "13e3d888b845d301a556419e31f14ab9bff57e3f06089ef2fd3bdc9ba6841efa",
+    "download_size": 974003,
+    "download_matches_pin": true,
+    "archive_members": [
+      "speedtest.exe",
+      "speedtest.md"
+    ],
+    "executable_sha256": "c73c4ac2a7cdc48829fe0f9d7ec91ca41c8b434490d4eb3205aad69c7aa3b921",
+    "executable_member": "speedtest.exe"
+  }
+]
