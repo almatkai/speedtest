@@ -1,0 +1,18 @@
+Speedtest standalone Rust extension
+
+Rust domain source extracted from Tezbar at fe71ca87f21ac4ff31505010c228f8abda0f2a89.
+Retain the original Apache-2.0 app LICENSE and licenses/raycast-extensions-MIT.txt.
+Installed Raycast extension author: tonka3000; contributors: koayon, pernielsentikaer, stevensd2m, aliaksandr_zhebit, xilopaint, alexi.build.
+Original installed upstream revision is unknown. The separate upstream metadata
+snapshot 97ee2594a03a94fa439c26864d85ad9a96dc9fc9 is context, not a claim that the
+installed assets originated at that commit. See provenance/source.json and
+provenance/upstream/installed-package.json for author/contributor metadata.
+Original icons and resources are preserved. No trademark rights are claimed.
+
+Ookla Speedtest CLI 1.2.0 is separately licensed, NOT Apache/MIT. Personal,
+non-commercial use restrictions and EULA/privacy links apply. Both exact
+archive speedtest.md notices are retained under resources/notices/ookla-1.2.0.
+No Ookla binary is bundled. Explicitly starting a test downloads the pinned CLI
+if needed and retains the source implementation's --accept-license and
+--accept-gdpr arguments. Review those terms before starting a real test.
+Extraction/download support does not grant redistribution or usage rights.

@@ -1,0 +1,31 @@
+[package]
+name = "tezbar-speedtest"
+version = "1.0.0"
+edition = "2021"
+license = "Apache-2.0 AND MIT"
+description = "Standalone Rust Speedtest process extension"
+repository = "https://github.com/almatkai/speedtest"
+
+[dependencies]
+serde_json = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "io-util", "io-std", "sync", "time", "process", "fs", "net"] }
+tezbar-extension-sdk = { git = "https://github.com/almatkai/tezbar-extension-sdk-rust.git", rev = "9f91afcc071c3f301414dc62b33cfeac7d89a0cf" }
+sha2 = "0.10"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "stream"] }
+futures-util = "0.3"
+libc = "0.2"
+flate2 = "1"
+tar = "0.4"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+tempfile = "3"
+
+[dev-dependencies]
+tempfile = "3"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_Security", "Win32_System_JobObjects", "Win32_System_Threading"] }
+
+[[bin]]
+name = "process-fixture"
+path = "tests/fixtures/cli.rs"
+test = false

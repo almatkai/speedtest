@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 3,
+  "id": "com.tezbar.native.speedtest",
+  "slug": "speedtest",
+  "name": "Speedtest",
+  "version": "1.0.0",
+  "description": "Test the performance and quality of your internet connection via speedtest.net",
+  "author": "tonka3000",
+  "icon": "resources/assets/speedtest.png",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.speedtest"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "preferences": [],
+  "commands": [
+    {
+      "name": "index",
+      "title": "Test Internet Speed",
+      "description": "Test the performance and quality of your internet connection via speedtest.net",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null,
+      "timeoutMs": 300000
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run"
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run"
+    }
+  ],
+  "execution": "process",
+  "protocolVersion": 1,
+  "repository": "https://github.com/almatkai/speedtest",
+  "artifacts": {},
+  "capabilities": [
+    "clipboard.write",
+    "shell.open"
+  ],
+  "migrationPaths": {
+    "nativeStore": "native-extensions-v2/speedtest/storage.json",
+    "cli": "native-extensions-v2/speedtest/cli"
+  },
+  "files": {}
+}
